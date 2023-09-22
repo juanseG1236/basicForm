@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet" />
+        <link rel="icon" href="images/logo.svg" type="image/x-icon">
+
+        <link rel="stylesheet" href="Stylesheet.css">
+        <script src="Script.js"></script>
+        <title>Formulario</title>
+    </head>
+</head>
+
+<body>
+    <div id="main-container-register">
+
+        <h2>Registro</h2>
+        <form id="register-form">
+
+            <div class="input-wrapper">
+                <input type="text" placeholder="nombre" name="name" class="input">
+            </div>
+
+            <div class="input-wrapper">
+                <input type="text" placeholder="usuario" name="user" class="input">
+            </div>
+
+            <div class="input-wrapper">
+                <input type="text" placeholder="contrasena" name="password" class="input">
+            </div>
+
+            <button type="button" class="toggle-button" id="toggle-button">Registrarse</button>
+
+
+        </form>
+        <p>¿Ya tienes una cuenta? <a href="#" id="change-register">Inicia sesión</a></p>
+    </div>
+
+    <div id="main-container-login">
+        <h2 class="login-title">iniciar sesion</h2>
+
+        <form id="login-form">
+            <!-- Coloca tus campos de inicio de sesión aquí (email, contraseña) -->
+            <div class="input-wrapper">
+                <input type="text" placeholder="usuario" name="uuser2" class="input">
+            </div>
+
+            <div class="input-wrapper">
+                <input type="text" placeholder="contrasena" name="password2" class="input">
+            </div>
+            <button type="button" class="toggle-button" id="toggle-button" onclick="toggleForm1()">inciar
+                sesion</button>
+        </form>
+        <p class="login-text">¿Ya tienes una cuenta? <a href="#" id="change-login">Inicia sesión</a></p>
+
+    </div>
+    <div id="background-circle-dark">
+
+    </div>
+    <div id="background-circle-light">
+
+    </div>
+
+
+</body>
+
+
+</html>

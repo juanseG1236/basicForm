@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cambio de Color de Fondo</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f2f2f2;
+            animation: backgroundChange 4s linear infinite alternate;
+        }
+
+        @keyframes backgroundChange {
+            0% {
+                background-color: #f2f2f2;
+            }
+            100% {
+                background-color: #333;
+            }
+        }
+
+        .container {
+            text-align: center;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Cambio de Color de Fondo</h2>
+        <p>El fondo de toda la página cambia de color desde adentro hacia afuera.</p>
+    </div>
+</body>
+</html>
