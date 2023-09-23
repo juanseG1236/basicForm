@@ -9,6 +9,15 @@ body {
   background: #f7f3ed;
 }
 
+#logo{
+  width: 5%; 
+  position: absolute;
+  right: 4%;
+  top: 4%;
+}
+
+
+
 #main-container-register {
   display: flex;
   justify-content: center;

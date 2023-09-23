@@ -24,51 +24,73 @@
 </head>
 
 <body>
+      <img id="logo" src="Images/logo.svg" alt="">
+
+<!-- el cambio de formularios funciona con dos contenodores que aparecen y desaparecen, mientras otros dos div en funcion de circulo de colores hacen el cambio de color -->
+
+<!-- este es el contenedor del registro contiene el fomulario , el titutlo y el texto de cambio  -->
     <div id="main-container-register">
 
         <h2>Registro</h2>
+
+        <!-- formulario de registro -->
+
         <form id="register-form">
 
             <div class="input-wrapper">
-                <input type="text" placeholder="nombre" name="name" class="input">
+                <input type="text" placeholder="nombre" name="name" class="input" id="r1">
             </div>
 
             <div class="input-wrapper">
-                <input type="text" placeholder="usuario" name="user" class="input">
+                <input type="text" placeholder="usuario" name="user" class="input" id="r2">
             </div>
 
             <div class="input-wrapper">
-                <input type="text" placeholder="contrasena" name="password" class="input">
+                <input type="text" placeholder="contrasena" name="password" class="input" id="r3">
             </div>
 
-            <button type="button" class="toggle-button" id="toggle-button">Registrarse</button>
+            <button type="submit" class="toggle-button">Registrarse</button>
 
 
         </form>
+
+
         <p>¿Ya tienes una cuenta? <a href="#" id="change-register">Inicia sesión</a></p>
     </div>
+
+
+<!-- este es el contenedor del login contiene el fomulario , el titutlo y el texto de cambio  -->
 
     <div id="main-container-login">
         <h2 class="login-title">iniciar sesion</h2>
 
+        <!-- formulario del login -->
+
         <form id="login-form">
             <!-- Coloca tus campos de inicio de sesión aquí (email, contraseña) -->
             <div class="input-wrapper">
-                <input type="text" placeholder="usuario" name="uuser2" class="input">
+                <input type="text" placeholder="usuario" name="uuser2" class="input" id="i1">
             </div>
 
             <div class="input-wrapper">
-                <input type="text" placeholder="contrasena" name="password2" class="input">
+                <input type="text" placeholder="contrasena" name="password2" class="input" id="i2">
             </div>
-            <button type="button" class="toggle-button" id="toggle-button" onclick="toggleForm1()">inciar
+            <button type="submit" class="toggle-button">inciar
                 sesion</button>
         </form>
         <p class="login-text">¿Ya tienes una cuenta? <a href="#" id="change-login">Inicia sesión</a></p>
 
     </div>
+
+    <!-- este es el div que hace de cambio de color a oscuro -->
+
     <div id="background-circle-dark">
 
     </div>
+
+    <!-- este es el div que hace de cambio de color a claro -->
+
+
     <div id="background-circle-light">
 
     </div>
